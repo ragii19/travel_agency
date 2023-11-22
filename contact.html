@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contactstyle.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li style="float: left;"><a href="index.html">Wing it!</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="japan.html">Japan</a></li>
+            <li><a href="greece.html">Greece</a></li>
+            
+        </ul>
+    </div>
+
+    <div class="container">
+        <form action="index.html">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="egypy">Egypt</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+          <form method="post" id="myForm" action="contact.html" onSubmit="alert('Thank you for your feedback.');" ></form>
+      
+        </form>
+      </div>
+
+    <footer class="btmbar">
+        <ul>
+            <li><a href="index.html" target="_blank">Facebook</a></li>
+            <li><a href="index.html" target="_blank">Twitter</a></li>
+            <li><a href="index.html" target="_blank">Instagram</a></li>
+            <li><a href="index.html" target="_blank">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
